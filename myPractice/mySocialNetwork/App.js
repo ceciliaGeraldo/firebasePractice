@@ -1,5 +1,6 @@
+
 // Your web app's Firebase configuration
-const firebaseConfig = {
+  const firebaseConfig = {
     apiKey: "AIzaSyDLT74TjxtAJjoRJ-DhnMM8uRnq2vs2zAM",
     authDomain: "mysocialnetwork-416d6.firebaseapp.com",
     databaseURL: "https://mysocialnetwork-416d6.firebaseio.com",
@@ -8,10 +9,10 @@ const firebaseConfig = {
     messagingSenderId: "973368051725",
     appId: "1:973368051725:web:4001c49d3f90afbdbfed44",
     measurementId: "G-JM7HH189QL"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
 
 //Get elements of login, all the inputs and buttons
 
